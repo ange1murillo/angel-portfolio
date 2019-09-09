@@ -1,5 +1,5 @@
 #experience {
-	background: url('/img/onpc.jpeg') no-repeat center center fixed;
+	background: url('../img/onpc.jpeg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -96,6 +96,7 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
 	#experience {
+		background: url('../img/onpc.jpeg') no-repeat center center relative;
 		.experience-overlay {
 			padding: 20px 0;
 		}
@@ -116,6 +117,7 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
 	#experience {
+		background: url('../img/onpc.jpeg') no-repeat center center relative;
 		.experience-overlay {
 			padding: 20px 0;
 		}
@@ -136,6 +138,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
 	#experience {
+		background: url('../img/onpc.jpeg') no-repeat center center relative;
 		.experience-overlay {
 			padding: 20px 0;
 		}
