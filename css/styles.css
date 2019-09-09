@@ -50,7 +50,7 @@ table {
   border-spacing: 0; }
 
 #home {
-  background: url("../img/onpc.jpeg") no-repeat center center fixed;
+  background: url("/img/onpc.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -553,7 +553,7 @@ table {
           text-align: center; } }
 
 #featured {
-  background: url("../img/onpc.jpeg") no-repeat center center fixed;
+  background: url("/img/onpc.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -859,7 +859,7 @@ table {
         padding: 30px 0; } }
 
 #experience {
-  background: url("../img/onpc.jpeg") no-repeat center center fixed;
+  background: url("/img/onpc.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
