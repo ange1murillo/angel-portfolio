@@ -5,7 +5,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		$('body,html').animate(
 			{
-				scrollTop: $(this.hash).offset().top
+				scrollTop: $(this.hash).offset().top,
 			},
 			1000
 		);
@@ -15,10 +15,7 @@ $(document).ready(function() {
 		var scroll = $(window).scrollTop();
 		if (scroll > 50) {
 			$('.top-head').css('background', '#fff');
-			$('.top-head').css(
-				'box-shadow',
-				'0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)'
-			);
+			$('.top-head').css('box-shadow', '0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)');
 		} else {
 			$('.top-head').css('background', 'transparent');
 			$('.top-head').css('box-shadow', 'none');

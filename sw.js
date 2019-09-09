@@ -46,6 +46,8 @@ self.addEventListener('install', function(e) {
 				'/angel-portfolio/js/owl.carousel.min.js',
 				'/angel-portfolio/js/progresscircle.js',
 				'/angel-portfolio/js/wow.min.js',
+				'/angel-portfolio/js/validator.min.js',
+				'/angel-portfolio/js/custom.validator.js',
 			]);
 		})
 	);

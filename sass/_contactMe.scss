@@ -41,10 +41,10 @@
                     box-shadow: rgba(11, 206, 175, .7) !important;
                 }
                 
-
-              
                
             }
+
+            
 
             .contact-btn{
                
@@ -84,7 +84,7 @@
    }
 
    .footer{
-       padding: 60px 0;
+       padding: 40px 0;
 
        .left{
         display: flex;
@@ -126,12 +126,19 @@
 
 }
 
-input[type="text"], textarea{
+input[type="text"],  textarea{
     padding: 25px !important;
     border-radius: 10px !important;
     color: $primaryColor !important;
     font-size: 1.2rem !important;
 
+}
+
+input[type="email"]{
+    padding: 25px !important;
+    border-radius: 10px !important;
+    color: $primaryColor !important;
+    font-size: 1.2rem !important;
 }
 
 @media screen and (max-width: 600px){
@@ -348,8 +355,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)  { 
 
     #contact-me{
-
-        height: 1200px;
+        padding-top: 220px;
+        height: 1100px;
     
     
        .footer{
@@ -397,8 +404,8 @@ and (max-device-width : 1024px)  {
 
 
     #contact-me{
-
-        height: 1500px;
+        padding: 400px 0 0 0;
+        height: 1400px;
     
     
        .footer{

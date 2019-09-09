@@ -832,7 +832,7 @@ table {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   #skills {
-    padding: 80px 0; }
+    padding: 100px 0; }
     #skills .tech-skills {
       padding: 0; }
     #skills .professional-skills {
@@ -1196,14 +1196,14 @@ table {
             margin-bottom: 15px; }
           #portfolio .projects .grid-item .inside .overlay h2 {
             font-size: 1.8rem;
-            font-weight: 500;
+            font-weight: 600;
             color: #fff;
             padding-bottom: 20px;
             margin-right: -250px;
             visibility: hidden; }
           #portfolio .projects .grid-item .inside .overlay h3 {
             font-size: 1rem;
-            font-weight: 300;
+            font-weight: 500;
             color: #fff;
             margin-left: -250px;
             visibility: hidden; }
@@ -1331,7 +1331,7 @@ table {
           #contact-me .form-section form .contact-btn .btn:visited {
             color: #0bceaf; }
   #contact-me .footer {
-    padding: 60px 0; }
+    padding: 40px 0; }
     #contact-me .footer .left {
       display: flex;
       flex-direction: row;
@@ -1352,6 +1352,12 @@ table {
           color: #0bceaf; }
 
 input[type="text"], textarea {
+  padding: 25px !important;
+  border-radius: 10px !important;
+  color: #0bceaf !important;
+  font-size: 1.2rem !important; }
+
+input[type="email"] {
   padding: 25px !important;
   border-radius: 10px !important;
   color: #0bceaf !important;
@@ -1427,7 +1433,8 @@ input[type="text"], textarea {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   #contact-me {
-    height: 1200px; }
+    padding-top: 220px;
+    height: 1100px; }
     #contact-me .footer .left {
       display: flex;
       flex-direction: row;
@@ -1446,7 +1453,8 @@ input[type="text"], textarea {
 /* Portrait and Landscape */
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   #contact-me {
-    height: 1500px; }
+    padding: 400px 0 0 0;
+    height: 1400px; }
     #contact-me .footer .left {
       display: flex;
       flex-direction: row;
@@ -1464,9 +1472,12 @@ input[type="text"], textarea {
 * {
   box-sizing: border-box; }
 
+html,
 body {
   line-height: 1;
-  background: white; }
+  background: white;
+  width: 100%;
+  overflow-x: hidden; }
 
 ol,
 ul {
@@ -1518,13 +1529,13 @@ header {
         text-decoration: none !important;
         line-height: 30px; }
         header nav ul li a:active {
-          transition: all .4s ease-in-out;
+          transition: all 0.4s ease-in-out;
           color: #000; }
         header nav ul li a:visited {
-          transition: all .4s ease-in-out;
+          transition: all 0.4s ease-in-out;
           color: #000; }
         header nav ul li a:hover {
-          transition: all .4s ease-in-out;
+          transition: all 0.4s ease-in-out;
           color: #0bceaf; }
       header nav ul a {
         color: #000 !important; }
