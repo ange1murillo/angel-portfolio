@@ -634,6 +634,7 @@ table {
 @media screen and (max-width: 600px) {
   #featured {
     background: url("../img/onpc.jpeg") no-repeat center center relative;
+    background-attachment: scroll;
     max-height: 800px; }
     #featured .featured-overlay {
       padding: 10px 0; }
@@ -654,7 +655,8 @@ table {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   #featured {
-    background: url("../img/onpc.jpeg") no-repeat center center relative; }
+    background: url("../img/onpc.jpeg") no-repeat center center relative;
+    background-attachment: scroll; }
     #featured .featured-overlay {
       padding: 10px 0; }
     #featured .title {
@@ -674,7 +676,8 @@ table {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
   #featured {
-    background: url("../img/onpc.jpeg") no-repeat center center relative; }
+    background: url("../img/onpc.jpeg") no-repeat center center relative;
+    background-attachment: scroll; }
     #featured .featured-overlay {
       padding: 10px 0; }
     #featured .title {
@@ -695,6 +698,7 @@ table {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   #featured {
     background: url("../img/onpc.jpeg") no-repeat center center relative;
+    background-attachment: scroll;
     height: 650px; }
     #featured .featured-overlay {
       padding: 50px 0; }
@@ -721,6 +725,7 @@ table {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   #featured {
     background: url("../img/onpc.jpeg") no-repeat center center relative;
+    background-attachment: scroll;
     height: 800px; }
     #featured .featured-overlay {
       padding: 0;
@@ -748,6 +753,7 @@ table {
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   #featured {
     background: url("../img/onpc.jpeg") no-repeat center center relative;
+    background-attachment: scroll;
     height: 900px; }
     #featured .featured-overlay {
       padding: 0;
@@ -936,7 +942,8 @@ table {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   #experience {
-    background: url("../img/onpc.jpeg") no-repeat center center relative; }
+    background: url("../img/onpc.jpeg") no-repeat center center relative;
+    background-attachment: scroll; }
     #experience .experience-overlay {
       padding: 20px 0; }
     #experience .right {
@@ -946,7 +953,8 @@ table {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
   #experience {
-    background: url("../img/onpc.jpeg") no-repeat center center relative; }
+    background: url("../img/onpc.jpeg") no-repeat center center relative;
+    background-attachment: scroll; }
     #experience .experience-overlay {
       padding: 20px 0; }
     #experience .right {
@@ -956,7 +964,8 @@ table {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   #experience {
-    background: url("../img/onpc.jpeg") no-repeat center center relative; }
+    background: url("../img/onpc.jpeg") no-repeat center center relative;
+    background-attachment: scroll; }
     #experience .experience-overlay {
       padding: 20px 0; }
     #experience .right {
