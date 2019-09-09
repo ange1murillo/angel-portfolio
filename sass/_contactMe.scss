@@ -144,6 +144,8 @@ input[type="email"]{
 @media screen and (max-width: 600px){
 
     #contact-me{
+
+        background: url('../img/map-color-overlay.png') no-repeat center center scroll; 
     
         padding: 100px 0 20px 0;
         height: auto;
@@ -198,7 +200,8 @@ and (-webkit-device-pixel-ratio : 3)
 and (orientation : portrait) { 
 
     #contact-me{
-    
+
+        background: url('../img/map-color-overlay.png') no-repeat center center scroll; 
         padding: 100px 0 20px 0;
         height: auto;
     
@@ -250,7 +253,7 @@ and (max-device-width : 667px)
 and (orientation : portrait) { 
 
     #contact-me{
-    
+        background: url('../img/map-color-overlay.png') no-repeat center center scroll; 
         padding: 100px 0 20px 0;
         height: auto;
     
@@ -303,7 +306,7 @@ and (max-device-width : 568px)
 and (orientation : portrait) { 
 
     #contact-me{
-    
+        background: url('../img/map-color-overlay.png') no-repeat center center scroll; 
         padding: 100px 0 20px 0;
         height: auto;
     
@@ -355,6 +358,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)  { 
 
     #contact-me{
+        background: url('../img/map-color-overlay.png') no-repeat center center scroll; 
         padding-top: 220px;
         height: 1100px;
     
@@ -404,6 +408,7 @@ and (max-device-width : 1024px)  {
 
 
     #contact-me{
+        background: url('../img/map-color-overlay.png') no-repeat center center scroll; 
         padding: 400px 0 0 0;
         height: 1400px;
     
