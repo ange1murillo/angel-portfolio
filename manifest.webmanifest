@@ -11,5 +11,5 @@
 	],
 	"name": "Angel's Portfolio PWA",
 	"short_name": "AngelPWA",
-	"start_url": "/angel-portfolio/index.html"
+	"start_url": "/angel-portfolio/"
 }
