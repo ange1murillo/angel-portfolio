@@ -23,7 +23,7 @@ self.addEventListener('install', function(e) {
 				// '/angel-portfolio/images/nike-email.png',
 				// '/angel-portfolio/images/nikestore.png',
 				// '/angel-portfolio/images/resinv.png',
-				'/angel-portfolio/img',
+				// '/angel-portfolio/img',
 				'/angel-portfolio/resources/angelresume2.pdf',
 				'/angel-portfolio/css/all.min.css',
 				'/angel-portfolio/css/animate.min.css',
