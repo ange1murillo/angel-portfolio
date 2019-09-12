@@ -1596,7 +1596,7 @@ header {
 
 @media screen and (max-width: 600px) {
   header nav {
-    padding: 15px 0 25px 0; }
+    padding: 10px 0; }
     header nav ul {
       font-size: 15px;
       font-weight: 400;
@@ -1611,7 +1611,7 @@ header {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   header nav {
-    padding: 15px 0 25px 0; }
+    padding: 10px 0; }
     header nav ul {
       font-size: 12px;
       font-weight: 400;
@@ -1625,7 +1625,7 @@ header {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
   header nav {
-    padding: 15px 0 25px 0; }
+    padding: 10px 0; }
     header nav ul {
       font-size: 12px;
       font-weight: 400;
@@ -1641,7 +1641,7 @@ header {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   header nav {
-    padding: 15px 0 25px 0; }
+    padding: 10px 0; }
     header nav ul {
       font-size: 12px;
       font-weight: 400;
@@ -1654,3 +1654,11 @@ header {
         padding: 5px 10px 5px 10px; }
       header nav ul li.active a {
         padding: 5px 10px; } }
+
+.navbar-collapse {
+  overflow: visible !important;
+  height: auto !important; }
+
+.collapse {
+  overflow: visible !important;
+  height: auto !important; }
