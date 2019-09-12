@@ -32,19 +32,42 @@
         <div class="home-overlay-color">
 
             <header class="top-head">
+
                 <div class="container">
 
-                    <nav id="main-nav">
-                        <ul>
+                    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
 
-                            <li class="nav-item active"><a href="#home" class="nav-link scroll">Home</a></li>
-                            <li class="nav-item"><a href="#about" class="nav-link scroll">About</a></li>
-                            <li class="nav-item"><a href="#skills" class="nav-link scroll">Skills</a></li>
-                            <li class="nav-item"><a href="#portfolio" class="nav-link scroll">Portfolio</a></li>
-                            <li class="nav-item"><a href="#contact-me" class="nav-link scroll">Contact</a></li>
+                        <div class="container-fluid">
 
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
 
-                        </ul>
+                                        <span class="sr-only">toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+            
+                                    </button>
+
+                        </div>
+
+                        
+
+                        <div class="collapse navbar-collapse" id="navbar-collapse-main">
+
+                                <ul>
+
+                                        <li class="nav-item active"><a href="#home" class="nav-link scroll">Home</a></li>
+                                        <li class="nav-item"><a href="#about" class="nav-link scroll">About</a></li>
+                                        <li class="nav-item"><a href="#skills" class="nav-link scroll">Skills</a></li>
+                                        <li class="nav-item"><a href="#portfolio" class="nav-link scroll">Portfolio</a></li>
+                                        <li class="nav-item"><a href="#contact-me" class="nav-link scroll">Contact</a></li>
+            
+            
+                                </ul>
+
+                        </div>
+
+                       
                     </nav>
 
                 </div>
@@ -509,11 +532,11 @@
 
             <nav>
                     <ul class="portfolio-nav">
-                        <li data-filter="all" class="projnav-item active"><span >All</span></li>
-                        <li data-filter=".landing" class="projnav-item"><span>Landing</span></li>
-                        <li data-filter=".emails" class="projnav-item"><span>Emails</span></li>
-                        <li data-filter=".csharp" class="projnav-item"><span>C#</span></li>
-                        <li data-filter=".jquery" class="projnav-item"><span>Jquery</span></li>
+                        <li data-mixitup-control data-filter="all" class="projnav-item active"><span >All</span></li>
+                        <li data-mixitup-control data-filter=".landing" class="projnav-item"><span>Landing</span></li>
+                        <li data-mixitup-control data-filter=".emails" class="projnav-item"><span>Emails</span></li>
+                        <li data-mixitup-control data-filter=".csharp" class="projnav-item"><span>C#</span></li>
+                        <li data-mixitup-control data-filter=".jquery" class="projnav-item"><span>Jquery</span></li>
 
                     </ul>
                 </nav>
@@ -521,7 +544,7 @@
             <div class="projects">
 
                 
-                <div class="grid-item mix landing wow fadeInUp">
+                <div class="grid-item mix landing">
 
                         <a data-fancybox data-src="#beef">
 
@@ -610,7 +633,7 @@
 
             </div>
 
-<div class="grid-item mix landing wow fadeInUp">
+<div class="grid-item mix landing">
 
         <a data-fancybox data-src="#beats">
 
@@ -681,7 +704,7 @@
 
             </div>
 
-        <div class="grid-item mix landing wow fadeInUp">
+        <div class="grid-item mix landing">
 
                 <a data-fancybox data-src="#pizza">
 
@@ -739,7 +762,7 @@
                                         </div>
 
                                         <div class="img-container">
-                                                <img src="img/pizzaselection.png" alt="" class="img-fluid">
+z                                                <img src="img/pizzaselection.png" alt="" class="img-fluid">
                                                 
                                         </div>
                                         
@@ -753,7 +776,7 @@
                     </div>
 
 
-                <div class="grid-item mix emails wow fadeInUp">
+                <div class="grid-item mix emails">
 
                         <a data-fancybox data-src="#nikemail">
 
@@ -819,7 +842,7 @@
     
                             </div>
             
-            <div class="grid-item mix emails wow fadeInUp">
+            <div class="grid-item mix emails">
 
                     <a data-fancybox data-src="#gemail">
 
@@ -894,7 +917,7 @@
 
                         </div>
 
-                    <div class="grid-item mix jquery wow fadeInUp">
+                    <div class="grid-item mix jquery">
 
                         <a data-fancybox data-src="#arch">
 
@@ -966,7 +989,7 @@
         
                                 </div>
 
-                                <div class="grid-item mix jquery wow fadeInUp">
+                                <div class="grid-item mix jquery">
 
                                         <a data-fancybox data-src="#pokedex">
                 
@@ -1038,7 +1061,7 @@
                         
                                                 </div>
 
-                                                <div class="grid-item mix ror wow fadeInUp">
+                                                <div class="grid-item mix ror">
 
                                                         <a data-fancybox data-src="#gamestore">
                                 
@@ -1128,7 +1151,7 @@
                         
                                                 </div>
 
-                                                <div class="grid-item mix csharp wow fadeInUp">
+                                                <div class="grid-item mix csharp">
 
                                                         <a data-fancybox data-src="#smashreg">
                                 
@@ -1224,7 +1247,7 @@
                                         
                                                                 </div>
 
-                                                                <div class="grid-item mix csharp wow fadeInUp">
+                                                                <div class="grid-item mix csharp">
 
                                                                         <a data-fancybox data-src="#bshop">
                                                 
@@ -1333,7 +1356,7 @@
                                                                                 </div>
 
 
-                                                                                <div class="grid-item mix jquery wow fadeInUp">
+                                                                                <div class="grid-item mix jquery">
 
                                                                                         <a data-fancybox data-src="#resinv">
                                                                 
