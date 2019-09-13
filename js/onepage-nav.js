@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 	$(window).scroll(function() {
 		var scroll = $(window).scrollTop();
-		if (scroll > 50) {
+		if (scroll > 10) {
 			$('.top-head').css('background', '#fff');
 			$('.top-head').css('box-shadow', '0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)');
 		} else {
