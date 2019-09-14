@@ -106,6 +106,8 @@ table {
             background-color: #000; }
         #home .row .left ul.social-links a:visited {
           color: #0bceaf; }
+      #home .row .left button.add-button {
+        margin-top: 15px; }
     #home .row .right .outer-circle {
       background-color: #0bceaf;
       width: 400px;
@@ -152,7 +154,8 @@ table {
           font-size: 2rem;
           padding-top: 20px; }
         #home .row .left h2 {
-          font-size: 1.5rem; }
+          font-size: 1.5rem;
+          padding-bottom: 30px; }
         #home .row .left ul.info li .fas {
           margin-right: 10px; }
           #home .row .left ul.info li .fas:hover {
@@ -173,6 +176,8 @@ table {
             margin-right: 0; }
           #home .row .left ul.social-links li:not(:last-child) {
             margin-right: 10px; }
+        #home .row .left button.add-button {
+          margin: 0 auto; }
       #home .row .right {
         margin: 0 auto;
         text-align: center; }
@@ -209,7 +214,8 @@ table {
           font-size: 2rem;
           padding-top: 20px; }
         #home .row .left h2 {
-          font-size: 1.5rem; }
+          font-size: 1.5rem;
+          padding-bottom: 30px; }
         #home .row .left ul.info li .fas {
           margin-right: 10px; }
           #home .row .left ul.info li .fas:hover {
@@ -230,6 +236,8 @@ table {
             margin-right: 0; }
           #home .row .left ul.social-links li:not(:last-child) {
             margin-right: 10px; }
+        #home .row .left button.add-button {
+          margin: 0 auto; }
       #home .row .right {
         margin: 0 auto;
         text-align: center; }
@@ -266,7 +274,8 @@ table {
           font-size: 2rem;
           padding-top: 20px; }
         #home .row .left h2 {
-          font-size: 1.5rem; }
+          font-size: 1.5rem;
+          padding-bottom: 30px; }
         #home .row .left ul.info li .fas {
           margin-right: 10px; }
           #home .row .left ul.info li .fas:hover {
@@ -287,6 +296,8 @@ table {
             margin-right: 0; }
           #home .row .left ul.social-links li:not(:last-child) {
             margin-right: 10px; }
+        #home .row .left button.add-button {
+          margin: 0 auto; }
       #home .row .right {
         margin: 0 auto;
         text-align: center; }
@@ -323,7 +334,8 @@ table {
           font-size: 2rem;
           padding-top: 20px; }
         #home .row .left h2 {
-          font-size: 1.5rem; }
+          font-size: 1.5rem;
+          padding-bottom: 30px; }
         #home .row .left ul.info li .fas {
           margin-right: 10px; }
           #home .row .left ul.info li .fas:hover {
@@ -344,6 +356,8 @@ table {
             margin-right: 0; }
           #home .row .left ul.social-links li:not(:last-child) {
             margin-right: 10px; }
+        #home .row .left button.add-button {
+          margin: 0 auto; }
       #home .row .right {
         margin: 0 auto;
         text-align: center; }
