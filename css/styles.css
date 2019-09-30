@@ -1346,7 +1346,8 @@ table {
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    padding-top: 30px; }
   #contact-me .form-section {
     margin: 0 auto;
     text-align: center;
