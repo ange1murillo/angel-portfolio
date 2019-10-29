@@ -1341,7 +1341,8 @@ table {
   background-size: cover;
   padding: 150px 0;
   height: 800px;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
   #contact-me h1 {
     font-size: 2rem;
     font-weight: 300;
